@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Manrope:wght@200&family=Montserrat:wght@300&display=swap');
+
+:root {
+  /* Colors */
+  --bleu-color:#00214A;
+  --orange-color:#FF9700;
+  --beige-color: #F3F3F3;
+  --blanc-color: #FFFFFF;
+  /* Fonts */
+  --font:Poppins;
+  --size:16px;
+  --width:400;
+  --line-height:24px;
+ 
+  /* Effects */
+}
+
+/*NOS SERVICES*/
+#nos-services {
+    background-color: var(--bleu-color);
+    color: var(--blanc-color);
+    text-align: center;
+    padding: 3%;
+}
+#nos-services h1{
+    color: var(--blanc-color);
+
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+#nos-services hr{
+    width: 200px;
+    height: 5.143px;
+    flex-shrink: 0;
+    background: var(--blanc-color);
+}
+.nos-services{
+    display: flex;
+    justify-content: space-around;
+    padding: 4%;
+
+}
+.nos-services div {
+    width: 836px;
+}
+.nos-services div img{
+    width: 826px;
+    height: 432px;
+    border-radius: 5px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.20);
+}
+#nos-services div h2{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: var(--orange-color);
+}
+#nos-services div p{
+    
+    line-height: 2;
+    font-size: 25px;
+   
+}
+#nos-services div a{
+    border-radius: 5px;
+    background: #FF9700;
+    display: flex;
+    width: 826px;
+    padding: 17px;
+    justify-content: center;
+    gap: 10px;
+    color: var(--blanc-color);
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
