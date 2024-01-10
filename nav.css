@@ -89,6 +89,8 @@ a{
 
     
     /* footer */
+
+
 footer{
         margin-top: 50px;
 }
@@ -97,7 +99,7 @@ footer{
     }
 .newletter {
     background: #ffffff;
-    width: 1365px;
+    /* width: 1365px; */
     padding-top: 30px;
     padding-left: 300px;
     height: 100px;
@@ -116,7 +118,7 @@ footer{
     text-align: left;
     font-family: 'Poppins-Medium', sans-serif;
     font-size: 20px;
-    font-weight: 500;
+    /* font-weight: 500; */
     position: relative;
 }
     
@@ -182,7 +184,7 @@ box-sizing: border-box;
     }
 .politique {
     background: #ffffff;
-    width: 1365px;
+    /* width: 1365px; */
     padding-top: 30px;
     /* padding-left: 100px; */
     height: 100px;
@@ -195,7 +197,7 @@ box-sizing: border-box;
  }
 .pied-footer {
     background: #00214a;
-    width: 1365px;
+    /* width: 1365px; */
     height: 103px;
     position: relative;
     display: flex;
