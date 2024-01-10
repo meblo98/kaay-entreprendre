@@ -1,0 +1,111 @@
+/* Figma Styles of your File */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Manrope:wght@200&family=Montserrat:wght@300&display=swap');
+
+:root {
+  /* Colors */
+  --title-color:#00214A;
+  --button-color:#FF9700;
+  /* Fonts */
+  --font:Poppins;
+  --size:16px;
+  --width:400;
+  --line-height:24px;
+ 
+  /* Effects */
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+/* navigateur */
+.head{
+    display: flex;
+    background: var(--title-color);
+    color: white
+}
+.head img{
+    padding-left: 72px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    padding-right: 200px;
+}
+.navbar{
+    padding-top: 35px;
+    display: flex;
+}
+.accueil, .accueil * {
+    box-sizing: border-box;
+    }
+.accueil {
+    color: #ff9700;
+    text-align: left;
+    font-family: 'Poppins-SemiBold', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    }
+
+.services, .services * {
+    box-sizing: border-box;
+        }
+.services {
+    padding-left: 50px;
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Poppins-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+}
+.rectangle-4, .rectangle-4 * {
+    box-sizing: border-box;
+    }
+.bouton {
+   
+    margin-top: 27px;
+    background: #ff9700;
+    border-radius: 5px;
+    width: 119px;
+    height: 40px;
+    position: relative;
+    margin-left: 250px;
+    }
+
+    .contact-bouton, .contact-bouton * {
+        box-sizing: border-box;
+     
+        }
+    .contact-bouton {
+       
+        color: #ffffff;
+        text-align: left;
+        font-family: 'Poppins-Regular', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: uppercase;
+        position: relative;
+        }
+
+
+
+
+    
+    /* footer */
+    .newletter, .newletter * {
+        box-sizing: border-box;
+        }
+    .newletter {
+        background: #ffffff;
+        width: 1440px;
+        height: 189px;
+        position: relative;
+        box-shadow:  0px 0px 20px 0px rgba(0, 0, 0, 0.20);
+        }
+    
+    
