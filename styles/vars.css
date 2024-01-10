@@ -3,8 +3,10 @@
 
 :root {
   /* Colors */
-  --title-color:#00214A;
-  --button-color:#FF9700;
+  --bleu-color:#00214A;
+  --orange-color:#FF9700;
+  --beige-color: #F3F3F3;
+  --blanc-color: #FFFFFF;
   /* Fonts */
   --font:Poppins;
   --size:16px;
