@@ -29,11 +29,13 @@ font-weight: 400;
 line-height: 17.22px; /* 149.739% */
 text-transform: uppercase;
 }
-#img{
-border-radius: 10px;
-background: url(<path-to-image>), lightgray 50% / cover no-repeat; 
-}
+
 #img p{
+width:70rem ;
+height: 30rem;
+flex-shrink: 0;
+margin-left: 167px;
+margin-right: 167px;
 color: #FFF;
 font-family: Poppins;
 font-size: 20px;
