@@ -21,7 +21,7 @@ a{
     text-decoration: none;
 }
 
-/* HEADER */
+/* navigateur */
 .head{
     display: flex;
     background: var(--title-color);
@@ -86,57 +86,218 @@ a{
     position: relative;
 }
 
-/* section banniere */
-#banniere h1{
-    color: #FF9700;
+/* section baniere comment ça marche */
+
+.baniere-cçm{
+    width: 100%;
+    background: url(images/commentcamarche.png);
+    background-repeat: no-repeat;
+}
+.video{
+    padding-top: 227px;
+    padding-bottom: 233px;
+    padding-left: 531px;
+    padding-right: 531px;
+    display: flex;
+}
+.im-ban, .im-ban * {
+    box-sizing: border-box;
+    }
+.im-ban {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20));
+    border-radius: 5px;
+    width: 1365px;
+    height: 534px;
+    position: relative;
+    object-fit: cover;
+}
+.slide-gauche, .slide-gauche * {
+    box-sizing: border-box;
+    }
+.slide-gauche {
+    margin-top: 115px;
+    width: 78.1px;
+    height: 74.73px;
+    position: relative;
+    transform: translate(-78.1px, -74.73px);
+    overflow: visible;
+}
+.play, .play * {
+    box-sizing: border-box;
+    }
+.play {
+    width: 165.57px;
+    height: 146.48px;
+    position: relative;
+    overflow: visible;
+}
+.slide-droite, .slide-droite * {
+    box-sizing: border-box;
+    }
+.slide-droite {
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 78.1px;
+    height: 74.73px;
+    position: relative;
+    overflow: visible;
+}
+
+/* section comment utiliser nos outils */
+.comment-uno {
+    background-color: var(--bleu-color);
+    color: var(--blanc-color);
+    text-align: center;
+    padding: 3%;
+    /* margin-bottom: 100px; */
+}
+.comment-uno h1{
+    color: #00214A;
     font-family: Poppins;
-    font-size: 40px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-top: 30px;
-    }
-    #banniere span{
+    text-transform: uppercase;
+}
+.comment-uno  hr{
+    width: 200px;
+    height: 5.143px;
+    flex-shrink: 0;
+    background: #00214A;
+}
+.outils{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 105px;
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.inscrire{
+    flex-shrink: 0;
+    width: 250px;
+    height: 200px;
+    position: relative;
+    margin-left: 90px;
+    /* overflow: hidden; */
+}
+.inscrire img{
+    width: 100%;
+    height: 100%;
+}
+.textcard h2{
+    color: #ff9700;
+    /* text-align: left; */
+    font-family: 'Poppins-SemiBold', sans-serif;
+    font-size: 20px;
+    /* line-height: 23.1px; */
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    width: 184px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 35px;
+}
+.textcard p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.textcard{
+    background: #00214A;
+    color: #ffffff;
+    padding-top: 20px;
+    margin-bottom: 60px;
+    width: 300px;
+    height: 150px;
+}
+
+/* comment fonctionne */
+
+.fonction-acconpagnement{
+    margin-top: 200px;
+    background: #f5faff;
+    /* width: 1440px; */
+    height: 687px;
+    position: relative;
+}
+.fonction-acconpagnement h1{
+    padding-top: 20px;
     color: #00214A;
     font-family: Poppins;
-    font-size: 22px;
+    font-size: 30px;
     font-style: normal;
-    font-weight: 600;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
     line-height: normal;
-    }
-    #banniere p{
-    color: #141414;
-    font-family: Poppins;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    }
-    #banniere a{
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-decoration: none;
-    background-color: #FF9700;
-    border-radius:5px ;
-    }
-    #ma-banniere{
-        display: flex;
-    }
-    #banniere {
-        margin-left: 50px;
-        padding-top: 30px;
-    }
+    text-transform: uppercase;
+}
+.fonction-acconpagnement hr{
+    width: 200px;
+    height: 5.143px;
+    flex-shrink: 0;
+    background: #00214A;
+}
 
+.slider {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.vector1{
+    margin-right: 60px;
+    padding-bottom: 100px;
+}
+.vector2{
+    margin-left: 60px;
+    padding-bottom: 100px;
+}
+
+.image1{
+    padding-top: 100px;
+}
+.image2{}
+
+.bouton-acompagnemant{
+    margin-left: 500px;
+    margin-top: 113px;
+    background: #ff9700;
+border-radius: 5px;
+padding: 10px;
+display: flex;
+flex-direction: row;
+gap: 10px;
+align-items: center;
+justify-content: center;
+width: 442px;
+height: 60px;
+position: relative;
+border: none;
+}
+
+.bouton-acompagnemant a{
+    color: #ffffff;
+text-align: left;
+font-family: 'Poppins-SemiBold', sans-serif;
+font-size: 24px;
+line-height: 23.1px;
+font-weight: 600;
+text-transform: uppercase;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: flex-star
+}
 
     
-    /* FOOTER */
+    /* footer */
 
 
-footer{
+    footer{
         margin-top: 50px;
 }
 .newletter, .newletter * {
