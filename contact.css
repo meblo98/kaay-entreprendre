@@ -86,8 +86,102 @@ a{
     position: relative;
 }
 
+/*CONTACT*/
+#contact  {
+    background-image: url(images/Frame\ 1000002047.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+.contact iframe{
+    width: 465.351px;
+    height: 181.326px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(0, 119, 57, 0.10);
+}
+.contact p{
+    width: 438.351px;
+    height: 114.429px;
+    border-radius: 5px;
+    border: 1px solid #F0F0F0;
+    background: #FFF;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.05);
+    justify-content: center;
+    padding: 25px 0 0 25px ;
+}
+ .contact p:nth-child(2)::before{
+    content: url(images/localisation.png);
+ }
+ .contact p:nth-child(3)::before{
+    content: url(images/mail.png);
+ }
+ .contact p:nth-child(4)::before{
+    content: url(images/telephone.png);
+ }
 
-    
+.formulaire{
+    width: 609.09px;
+    height: 632px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.20);
+    text-align: center;
+    background-image: url(images/Calque\ 2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+form  ul li{
+    list-style: none;
+}
+.formulaire input{
+    width: 497.7px;
+    height: 60px;
+    border-radius: 5px;
+    background: #CCD3DB;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);
+    color: #575757;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 25px 0 25px 0;
+}
+.formulaire textarea{
+    width: 497.7px;
+    height: 154.05px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #CCD3DB;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);
+    color: #575757;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 25px;
+} 
+.formulaire a{
+    width: 255px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #00214A;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+    color: #FFF;
+    padding: 10px;
+    align-items: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
     /* FOOTER */
 
 
@@ -238,3 +332,4 @@ border-radius: 100%;
 .reseau-sociaux a{
     padding-left: 10px;
 }
+

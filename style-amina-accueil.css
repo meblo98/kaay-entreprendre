@@ -80,3 +80,70 @@
     text-transform: uppercase;
     text-decoration: none;
 }
+
+/*ARTICLE DE BLOG*/
+#article-blog {
+    text-align: center;
+}
+#article-blog h1{
+    color: #00214A;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+#article-blog hr{
+    background: #00214A;
+    width: 200px;
+    height: 5px;
+}
+#article-blog .article-blog{
+    display: flex;
+    justify-content: center;
+    margin: 150px;
+}
+#article-blog .article-blog-text{
+    width: 930px;
+    height: 514px;
+    border-radius: 10px;
+    background: url(images/accueil_blog.png);
+    background-repeat: no-repeat;
+    margin: 0 100px 0 100px;
+    text-align: center;
+    
+}
+.article-blog-text{
+    padding-top: 300px;
+    
+}
+.article-blog-text p{
+    padding-top: 300px;
+    color: #00214A;
+    border-radius: 5px;
+    background: #FFF;
+    font-size: 29px;
+    font-weight: 400;
+    padding: 20px;
+    width: 500px;
+    align-items: center;
+    margin-left: 180px;
+}
+.article-blog-text a{
+    color: #FFF;
+text-decoration: none;
+font-family: Poppins;
+font-size: 22px;
+font-weight: 600;
+text-transform: uppercase;
+border-radius: 5px;
+background: #F39200;
+padding: 25px;
+
+}
+
+.caroussel{
+    width: 185px;
+height: 21px;
+flex-shrink: 0;
+}
