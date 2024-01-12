@@ -1,34 +1,92 @@
-#article{
-color: #00214A;
+   /*BANNIERE ARTICLE BLOG*/
+   #banniere-article-blog{
+    background: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+}
+#banniere-article-blog h1{
+    color: #00214A;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23.1px; /* 77% */
+    letter-spacing: 0.735px;
+    text-transform: uppercase;
+    margin-left: 55px;
+
+}
+.arti{
+    display: flex;
+
+    gap: 25px;
+
+}
+
+.trait {
+    width: 10%;
+    height: 5px; /* ou la hauteur souhaitée pour votre trait */
+    background-color:#F3F3F3; /* ou la couleur souhaitée pour votre trait */
+    border: none; /* Supprime la bordure par défaut du trait */
+}
+
+#banniere-article-blog div{
+    display: flex;
+}
+#banniere-article-blog img{
+    margin: 5px;
+}
+#banniere-article-blog .home{
+    margin-top: 20px;
+}
+#banniere-article-blog .blog{
+    color: #00214A;
 font-family: Poppins;
-font-size: 30px;
+font-size: 15px;
 font-style: normal;
 font-weight: 700;
-line-height: 23.1px; /* 77% */
-letter-spacing: 0.735px;
+line-height: 13px; /* 86.667% */
+letter-spacing: 1px;
 text-transform: uppercase;
-background: #f3f3f3;
 }
-#article-blog{
-display: flex;
-color: #00214A;
+#banniere-article-blog .article{
+    color: rgba(0, 33, 74, 0.50);
+text-align: right;
 font-family: Poppins;
-font-size: 30px;
-font-style: normal;
-font-weight: 600;
-line-height: 23.1px; /* 77% */
-letter-spacing: 0.735px;
-text-transform: uppercase;
-}
-#article-blog p{
-color: #7C7C7C;
-font-family: Source Sans Pro;
-font-size: 11.5px;
-font-style: normal;
+font-size: 15px;
 font-weight: 400;
-line-height: 17.22px; /* 149.739% */
+line-height: 13px; /* 86.667% */
+letter-spacing: 1px;
 text-transform: uppercase;
 }
+.banniere-article-blog div{
+    margin-top: 25px;
+}
+
+ .imag {
+width: 52px;
+height: 100.82px;
+flex-shrink: 0;
+stroke-width: 1px;
+stroke: #00214A;
+}
+.card-titre {
+    display: flex;
+    padding-left: 90px;
+    margin-top: 50px;
+    }
+.sous-titre2{
+width: 168px;
+height: 19px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+padding-left: 90px; 
+}
+
+
+
+
 
 #img p{
 width:70rem ;
@@ -46,18 +104,18 @@ letter-spacing: 0.735px;
 text-transform: uppercase;
 }
 #img p {
-display: flex;
-width: 675px;
-height: 75px;
-padding: 0px 10px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-flex-shrink: 0;
-border-radius: 20px;
-background: #FF9700;
-margin-left: 167;   
-}
+    display: flex;
+    width: 675px;
+    height: 75px;
+    padding: 0px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FF9700;
+    margin-left: 167;   
+    }
 #text  {
     display: flex;
     justify-content: space-around;
@@ -96,12 +154,13 @@ line-height: 17.22px; /* 107.625% */
 }
 #petit-paragraph{
     display: flex;
-    width: 1106px;
+    width: 90%;
     height: 60px;
     background: #00214A;
     justify-content: space-around;
     padding: 20px;
     align-content: center;
+    margin-left: 55px;
  
 }
 .chiffre{
@@ -131,11 +190,13 @@ line-height: 17.22px; /* 107.625% */
 
 
 .formulaire{
- width: 1028px;
+ width: 80%;
 height: 577px;
 border-radius: 5px;
 background: #00214A;
 box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.20); 
+margin-left: 155px;
+
 }
 .formulaire h4{
 color: #ffffff;
@@ -144,7 +205,7 @@ form{
     list-style:none;
 }
 .formulaire input{
-width: 984px;
+width: 90%;
 height: 53px;
 flex-shrink: 0;
 border-radius: 5px;
@@ -152,7 +213,7 @@ background: rgba(255, 255, 255, 0.20);
 box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
 }
 .formulaire textarea {
-    width: 984px;
+    width: 90%;
     height: 175px;
     flex-shrink: 0;  
     border-radius: 5px;
@@ -160,11 +221,13 @@ box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
 }
 .formulaire a{
-   width: 984px;
+   width: 90%;
    height: 53px;
    border-radius: 5px;
    background: #FF9700;
    color: #ffffff;
+   margin-left: 55px;
+
 
 }
 
