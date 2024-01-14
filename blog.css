@@ -92,12 +92,12 @@ a{
     background: #F3F3F3;
     display: flex;
     justify-content: space-between;
+    padding: 20px;
 }
 #banniere-article-blog h1{
     color: #00214A;
     font-family: Poppins;
     font-size: 30px;
-    font-style: normal;
     font-weight: 700;
     line-height: 23.1px; /* 77% */
     letter-spacing: 0.735px;
@@ -118,7 +118,7 @@ font-family: Poppins;
 font-size: 15px;
 font-style: normal;
 font-weight: 700;
-line-height: 13px; /* 86.667% */
+line-height: 10px; /* 86.667% */
 letter-spacing: 1px;
 text-transform: uppercase;
 }
@@ -387,7 +387,49 @@ border-radius: 100%;
     padding-left: 10px;
 }
 
+@media screen and (max-width: 1024px) {
+    body{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    article{
+        width: 258px;
+        height: 470px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .card-titre h2 {
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .card-time p:nth-child(1){
+        font-size: 7px;
+        font-weight: 400;
+        line-height: 16px; 
+    }
+    .card-time p:nth-child(2){
+        font-size: 7px;
+        margin: 5px;
+    }
 
+    .card-time a{
+        font-size: 7px;
+    }
+    .card-img{
+        width: 231px;
+        height: 154px;
+    }
+    .card-p{
+        width: 228px;
+        margin: 20px 0 45px 0;
+    }
+    .card-a{
+        padding: 10px;
+        font-size: 14px;
+
+    }
+}
 
 
 
