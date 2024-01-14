@@ -191,17 +191,26 @@ flex-shrink: 0;
     .article-blog{
     }
     .article-blog-text{
-        background-size: 58em;
+        background-size: 50%;
     }
 
     .article-blog img{
-        width: 80%;
         display: flex;
         text-align: center;
         justify-content: center;
         align-items: center;
     }
-@media screen and (min-width: 390px ) and (max-width: 500px) {
 
-    }   
 }
+@media screen and (min-width: 390px ) and (max-width: 624px) {
+    .nos-services{
+        display: grid;
+        grid-template-columns: max-content;
+        
+    } 
+    .nos-services img{
+        width: 200px;
+        height: 150px;
+
+    };
+}   
