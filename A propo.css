@@ -66,7 +66,7 @@
   .wrapper-4 {
     flex-shrink: 0;
     position: relative;
-    width: 420px;
+    width: 390px;
     height: 411.429px;
     font-size: 0px;
     background: #ffffff;
@@ -221,3 +221,78 @@
     background: #ffffff;
     z-index: 42;
   }
+
+/* Your existing CSS outside the media query */
+
+/* @media only screen and (min-width: 768px) and (max-width: 1024px) { */
+  /* Styles for the specified screen width range */
+  @media screen and (max-width: 1100px){ 
+  .section-3 {
+    /* Add styles for section-3 within this screen width range */
+  }
+
+  .wrapper-3 {
+   
+    /* Add styles for wrapper-3 within this screen width range */
+  }
+
+  .text-a {
+    /* text-align: center; */
+    padding-right: 1000px;
+    /* Add any additional styles for text-a within this screen width range */
+  }
+
+  .text-b {
+    /* text-align: center; */
+    /* margin: auto; */
+    margin-right: 250px;
+    padding-right: 800px;
+
+    /* Add any additional styles for text-b within this screen width range */
+  }
+
+  .box {
+    display: inline;
+    /* Add styles for the box within this screen width range */
+  }
+
+  .wrapper-4 {
+    /* Add styles for wrapper-4 within this screen width range */
+    display: inline;
+  }
+
+  .text-c {
+    /* Add styles for text-c within this screen width range */
+  }
+
+  .text-d {
+    /* Add styles for text-d within this screen width range */
+  }
+
+  .section-5 {
+    display: inline;
+    /* Add styles for section-5 within this screen width range */
+  }
+
+  .text-e {
+    /* Add styles for text-e within this screen width range */
+  }
+
+  .text-f {
+    /* Add styles for text-f within this screen width range */
+  }
+
+  .section-6 {
+    display: inline-table;
+    /* Add styles for section-6 within this screen width range */
+  }
+
+  .text-10 {
+    /* Add styles for text-10 within this screen width range */
+  }
+
+  .text-11 {
+    /* Add styles for text-11 within this screen width range */
+  }
+}
+

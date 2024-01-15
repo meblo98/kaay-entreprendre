@@ -47,7 +47,7 @@ button {
   border-radius: 5px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
 }
-.pic {
+/* .pic {
   position: absolute;
   width: 11.02%;
   height: 54%;
@@ -57,7 +57,7 @@ button {
     no-repeat center;
   background-size: 100% 100%;
   z-index: 13;
-}
+} */
 .text {
   display: flex;
   align-items: flex-start;
@@ -76,7 +76,7 @@ button {
   letter-spacing: 1.84px;
   z-index: 12;
 }
-.wrapper {
+ .wrapper {
   position: absolute;
   width: 245px;
   height: 49px;
@@ -86,7 +86,7 @@ button {
   z-index: 2;
   border-radius: 5px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
-}
+}/*
 .pic-2 {
   position: absolute;
   width: 11.02%;
@@ -97,7 +97,7 @@ button {
     no-repeat center;
   background-size: 100% 100%;
   z-index: 4;
-}
+} */
 .text-2 {
   display: flex;
   align-items: flex-start;
@@ -332,7 +332,7 @@ button {
   height: 517px;
   top: 35px;
   left: 627px;
-  background: url(./assets/images/066cb48294a549ebe9371fd8b02a6127149e4e46.png)
+  background: url(kaay-entreprendre/kaay-entreprendre/services/assets/images/service2.png)
     no-repeat center;
   background-size: cover;
   z-index: 31;
