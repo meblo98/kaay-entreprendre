@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('nav.css');
 
 :root {
   /* Colors */
@@ -7,12 +8,19 @@
   --white-color: #fff;
   --gray-color: #F3F3F3;
   --blueinput-color: #00214A33;
+  --blue-color:#00214A;
+  --orange-color:#FF9700;
+  --white-color: #fff;
+  --gray-color: #F3F3F3;
+  --blueinput-color: #00214A33;
+
 
   /* Fonts */
   --font:Poppins;
  
   /* Effects */
 }
+
 
 *{
   margin: 0;
@@ -21,8 +29,11 @@
 }
 
 
+
+
 /*HEADER*/
-header {
+/* header {
+
     background-color: var(--blue-color);
     display: flex;
     justify-content: space-between;
@@ -33,6 +44,16 @@ header {
 header img{
   width: 147.916px;
   height: 40.095px;
+
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    padding: 0 3em 0 3em;
+}
+header img{
+  width: 147.916px;
+  height: 40.095px;
+
 }
 
 header nav{
@@ -45,6 +66,19 @@ header nav ul{
   width: 100%;
   height: 100%;
   justify-content: space-between;
+<<<<<<< HEAD
+
+header nav{
+  width: 60%;
+  height: 100%;
+}
+
+header nav ul{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+
 }
 
 
@@ -84,20 +118,33 @@ header nav ul li a{
   border-radius: 10px;
   color: var(--white-color);
   text-transform: uppercase;
-}
 
+} */
+
+ /*BANNIERE ARTICLE BLOG*/
+ #banniere-article-blog{
+    background: var(--gray-color);
+
+ }
  /*BANNIERE ARTICLE BLOG*/
  #banniere-article-blog{
     background: var(--gray-color);
     display: flex;
     align-items: center;
+    align-items: center;
     justify-content: space-between;
+    padding: 1.2em;
     padding: 1.2em;
 }
  #banniere-article-blog h1{
     color: var(--blue-color);
+ }
+ #banniere-article-blog h1{
+    color: var(--blue-color);
     font-family: Poppins;
     font-size: 1.8em;
+    font-size: 1.8em;
+
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -108,7 +155,9 @@ header nav ul li a{
 
 /*ARTICLE*/
 #article {
-    width: 100%;
+
+    width: 90%;
+    margin-left: 100px;
     justify-content: space-around;
 }
 article{
@@ -182,6 +231,10 @@ article .article-blog{
 #banniere-article-blog img{
     margin: 5px;
     height:19px;
+<<<<<<< HEAD
+    height:19px;
+=======
+>>>>>>> 904c7439a7ebe1e5498938fbbaba1a99e6f60a11
 }
 #banniere-article-blog .home{
     margin-top: 20px;
@@ -193,6 +246,11 @@ font-size: 15px;
 font-weight: 700;
 line-height: 10px; /* 86.667% */
 /*letter-spacing: 1px;
+<<<<<<< HEAD
+line-height: 10px; /* 86.667% */
+/*letter-spacing: 1px;
+=======
+>>>>>>> 904c7439a7ebe1e5498938fbbaba1a99e6f60a11
 text-transform: uppercase;
 }
 #banniere-article-blog .article{
@@ -203,11 +261,18 @@ font-size: 15px;
 font-weight: 400;
 line-height: 13px; /* 86.667% */
 /*letter-spacing: 1px;
+<<<<<<< HEAD
+/*letter-spacing: 1px;
+=======
+>>>>>>> 904c7439a7ebe1e5498938fbbaba1a99e6f60a11
 text-transform: uppercase;
 }
 .banniere-article-blog div{
     margin-top: 25px;
+<<<<<<< HEAD
 } */
+
+
 
 /*FOOTER*/
 
@@ -262,3 +327,4 @@ footer section:nth-child(4){
   color: var(--white-color);
   font-weight: 500;
 }
+
