@@ -1,0 +1,44 @@
+/* section banniere */
+#banniere h1{
+    color: #FF9700;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 30px;
+    }
+    #banniere span{
+    color: #00214A;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+    #banniere p{
+    color: #141414;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    #banniere a{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    background-color: #FF9700;
+    border-radius:5px ;
+    }
+    #ma-banniere{
+        display: flex;
+    }
+    #banniere {
+        margin-left: 50px;
+        padding-top: 30px;
+    }
