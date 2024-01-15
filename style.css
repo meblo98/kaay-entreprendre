@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Manrope:wght@200&family=Montserrat:wght@300&display=swap');
-
+@import url('nav.css');
 :root {
   /* Colors */
   --title-color:#00214A;
@@ -26,69 +26,7 @@ a{
 }
 
 /* HEADER */
-.head{
-    display: flex;
-    background: var(--title-color);
-    color: white
-}
-.head img{
-    padding-left: 72px;
-    padding-top: 27px;
-    padding-bottom: 27px;
-    padding-right: 150px;
-}
-.navbar{
-    padding-top: 35px;
-    display: flex;
-}
 
-.services:hover,
-.services:focus {
-    color: #FF9700;
-    border-bottom: solid 5px #FF9700;
-}
-
-.services:focus::after {
-    transform: scaleX(1);
-}
-
-
-
-.services, .services * {
-    box-sizing: border-box;
-        }
-.services {
-    padding-left: 50px;
-    color: #ffffff;
-    text-align: left;
-    font-family: 'Poppins-Regular', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    text-transform: uppercase;
-    position: relative;
-}
-
-.bouton {
-   border: none;
-    margin-top: 27px;
-    background: #ff9700;
-    border-radius: 5px;
-    width: 119px;
-    height: 40px;
-    position: relative;
-    margin-left: 250px;
-  }
-
-.contact-bouton {
-   
-    color: #ffffff;
-    text-align: left;
-    font-family: 'Poppins-Regular', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    text-transform: uppercase;
-    position: relative;
-}
 
 /* section banniere */
 #banniere h1{
