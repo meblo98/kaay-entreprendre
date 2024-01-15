@@ -13,13 +13,6 @@
  
   /* Effects */
 }
-body{
-    margin: 0;
-    padding: 0;
-}
-a{
-    text-decoration: none;
-}
 
 /* HEADER */
 .head{
@@ -122,6 +115,7 @@ a{
     width: 50px;
     height: 50px;
    }
+>>>>>>> a46e377844752cd901886089cb117f50ec9ef5c3
 /* section banniere */
 /* #banniere h1{
     color: #FF9700;
