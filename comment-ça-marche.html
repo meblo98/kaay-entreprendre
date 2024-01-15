@@ -139,16 +139,18 @@
 
 
         <script>
-            let menu = document.getElementById("baniere-cçm");
+            let menu = document.getElementById("head");
             let togg1 = document.getElementById("burger");
             function openMenu(){
                togg1.style.display = "none";
-               menu.style.marginTop= "500px";
+               menu.style.marginBottom= "500px";
+             
                 document.querySelector('.navbar').classList.add('open');
             }
             function closeMenu(){
                 togg1.style.display = "block";
-                menu.style.marginTop= "0px";
+                menu.style.marginBottom= "0px";
+             
                 document.querySelector('.navbar').classList.remove('open');
             }
         </script>
