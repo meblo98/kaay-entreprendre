@@ -232,6 +232,6 @@ footer section:nth-child(4){
   color: var(--white-color);
   font-weight: 500;
 }
-@media screen and (max-width:1024px) {
+@media (min-width:) and (max-width:1024px) {
     
 }
