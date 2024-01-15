@@ -332,7 +332,7 @@ button {
   height: 517px;
   top: 35px;
   left: 627px;
-  background: url(./assets/images/066cb48294a549ebe9371fd8b02a6127149e4e46.png)
+  background: url(services/assets/images/service2.png)
     no-repeat center;
   background-size: cover;
   z-index: 31;
@@ -854,3 +854,11 @@ button {
   background-size: 100% 100%;
   z-index: 66;
 }
+
+@media only screenand (max-width:350px) {
+
+  
+  
+}
+
+
