@@ -1,3 +1,5 @@
+@import url('nav.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Manrope:wght@200&family=Montserrat:wght@300&display=swap');
 
 body{
     margin: 0;
@@ -7,107 +9,7 @@ a{
     text-decoration: none;
 }
 
-/* HEADER */
-.head{
-    display: flex;
-    width: auto;
-    margin-bottom: 10px;
-    background: var(--title-color);
-    color: white;
-}
-.head img{
-    padding-left: 72px;
-    padding-top: 27px;
-    padding-bottom: 27px;
-    margin-right: 100px;
-}
-.navbar{
-    padding-top: 20px;
-    display: flex;
-    
-}
-
-.nav_menu{
-    padding: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    list-style: none;
-}
-.nav_menu_link{
-    margin-right: 50px;
-   }
-   .nav_menu_link:last-of-type{
-    margin-right: initial;
-   }
-   .nav_menu_link a{
-    color: #ffffff;
-    text-align: left;
-    font-family: 'Poppins-Regular', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    text-transform: uppercase;
-    position: relative;
-   }
-   .nav_menu_link:hover,
-   .nav_menu_link:focus{
-    color: #FF9700;
-    border-bottom: solid 5px #FF9700;
-   }
-   .nav_menu_link:focus::after {
-    transform: scaleX(1);
-
-}
-   .contact{
-    display: none;
-   }
-.bouton {
-    position: fixed;
-    border: none;
-    right: 30px;
-    outline: none;
-    /* margin-top: 27px; */
-    background: #ff9700;
-    border-radius: 5px;
-    width: 119px;
-    height: 40px;
-    position: relative;
-    margin-left: 10vw;
-  }
-
-.contact-bouton {  
-    color: #ffffff;
-    text-align: left;
-    font-family: 'Poppins-Regular', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    text-transform: uppercase;
-    position: relative;
-}
-.burger{
-    display: none;
-    position: fixed;
-    z-index: 10;
-    top: 0px;
-    right: 30px;
-    justify-content: center;
-    align-items: center;
-   }
-   .close{
-    display: none;
-    margin-top: 20px;
-    width: 50px;
-    height: 50px;
-   }
-   .burger svg{
-   
-    margin-top: 20px;
-    fill: white;
-    width: 50px;
-    height: 50px;
-   }  
-   
-   
+  
    /*BANNIERE ARTICLE BLOG*/
    #banniere-article-blog{
     background: #F3F3F3;
@@ -411,6 +313,9 @@ text-align: justified;
 }  
 
 /*barre nav ARTICLE */
+.bar_article{
+    margin-left: 150px;
+}
 #petit-paragraph{
     display: flex;
     width: 77%;
@@ -507,14 +412,14 @@ margin-left: 45px;
         padding: 0;
     }
     #banniere-article-blog {
-         width: 1024px;
-         height: 139px;
+         /* width: 1024px;
+         height: 139px; */
          top: 90px;
     }
 
     #banniere-article-blog h1 {
-       width: 264px;
-       height: 24px;
+       /* width: 264px;
+       height: 24px; */
        top: 150px;
        left: 61px;
        font-size: 30px;
@@ -524,7 +429,7 @@ margin-left: 45px;
 
     #banniere-article-blog div {
         margin-top: 15px;
-        margin-left: px; 
+       
     }
     #banniere-article-blog img{
         margin: 5px;
@@ -533,8 +438,8 @@ margin-left: 45px;
         margin-top: 20px;
     }
     #banniere-article-blog .blog{
-    width: 43px;
-    height: 13px;
+    /* width: 43px;
+    height: 13px; */
     top: 152px;
     left: 853px;
     font-family: Poppins;
@@ -543,8 +448,8 @@ margin-left: 45px;
     line-height: 13px; 
     }
     #banniere-article-blog .article{
-    width: 67px;
-    height: 13px;
+    /* width: 67px;
+    height: 13px; */
     top: 153px;
     left: 916px;
     font-family: Poppins;
@@ -554,8 +459,8 @@ margin-left: 45px;
     
     }
     .imag{
-        width: 40px;
-        height: 67px;
+        /* width: 40px;
+        height: 67px; */
         left: 40px;
         top: 20px;
         right: 20px; 
@@ -569,19 +474,19 @@ margin-left: 45px;
         right: 20px;
     }
     .card-titre{
-       width: 526px;
-       height: 25px;
+       /* width: 526px;
+       height: 25px; */
        top: 50px;
        left: 200px; 
        border: 1px;   
        padding-bottom: 100px;
        
     }
-    .sous-titre2{
+    /* .sous-titre2{
         width: 95px;
         height: 50px;
         
-    }
+    } */
     /* image body*/
     #img{
         /* width: 700px;

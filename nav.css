@@ -115,52 +115,6 @@
     width: 50px;
     height: 50px;
    }
->>>>>>> a46e377844752cd901886089cb117f50ec9ef5c3
-/* section banniere */
-/* #banniere h1{
-    color: #FF9700;
-    font-family: Poppins;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    padding-top: 30px;
-    }
-    #banniere span{
-    color: #00214A;
-    font-family: Poppins;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    }
-    #banniere p{
-    color: #141414;
-    font-family: Poppins;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    }
-    #banniere a{
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-decoration: none;
-    background-color: #FF9700;
-    border-radius:5px ;
-    }
-    #ma-banniere{
-        display: flex;
-    }
-    #banniere {
-        margin-left: 50px;
-        padding-top: 30px;
-    } */
-
 
     
     /* FOOTER */
@@ -655,7 +609,7 @@ box-sizing: border-box;
 }
 .s-inscrire-la-newsletter {
 padding-top: 13px;
-padding-right: 88px;
+padding-right: 50px;
 color: #00214a;
 text-align: left;
 font-family: 'Poppins-Medium', sans-serif;
@@ -715,10 +669,10 @@ box-sizing: border-box;
 color: #00214a;
 text-align: left;
 font-family: 'Poppins-Medium', sans-serif;
-font-size: 20px;
+font-size: 17px;
 font-weight: 500;
 position: relative;
-padding-left: 150px;
+padding-left: 50px;
 }
 
 .politique, .politique * {

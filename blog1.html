@@ -203,7 +203,7 @@
     </section>
     <br>
     <!----------------barre ARTICLE BLOG-------------------------->
-    <section >
+    <section class="bar_article">
         <div id="petit-paragraph">
             <div class="chiffre">
                 <p>1/9</p>
@@ -274,10 +274,25 @@
             <a href=""><i class="fa-brands fa-linkedin fa-2x" style="color: #ffffff;"></i></a>
             <a href=""><i class="fa-brands fa-twitter fa-2x" style="color: #ffffff;"></i></a>
             <a href=""><i class="fa-brands fa-facebook fa-2x" style="color: #ffffff;"></i></a>
-            <a href=""><i class="fa-brands fa-square-instagram fa-2x" style="color: #ffffff;"></i>></i></a>
+            <a href=""><i class="fa-brands fa-square-instagram fa-2x" style="color: #ffffff;"></i></i></a>
         </div>
     </div>
-</footer>       
-    
+</footer>
+
+
+
+
+<script>
+    let togg1 = document.getElementById("burger");
+    function openMenu(){
+       togg1.style.display = "none";
+        document.querySelector('.navbar').classList.add('open');
+    }
+    function closeMenu(){
+        togg1.style.display = "block";
+        document.querySelector('.navbar').classList.remove('open');
+    }
+</script>
+
 </body>
 </html>
