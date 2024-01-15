@@ -433,12 +433,9 @@ border-radius: 100%;
 @media screen and (max-width:1100px) {
     article{
         width: 258px;
-        height: 450px;
+        height: 500px;
         flex-shrink: 0;
-        font-size: 13px;
         font-weight: 400;
-        display: inline-flex;
-        flex-wrap: wrap;
     }
     .card-img{
         width: 231px;
@@ -455,7 +452,12 @@ border-radius: 100%;
     }
 }
 
-
+@media (min-width:390px) and (max-width: 480px){
+   
+    .card{
+        display: block;
+    }
+}
 
 
 
