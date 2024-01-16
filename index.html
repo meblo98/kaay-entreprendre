@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -46,7 +46,6 @@
 
     <!-- section banniere-->
     <section id="banniere">
-        <div id="ma-banniere">
             <div>
                 <h1>
                     Avec Kaay Entreprndre
@@ -57,7 +56,7 @@
                 </span>
                 <p>
                     Vous avez une idée brillante et aspirez à la
-                    concrétiser ? Vous êtes au bon endroit !
+                    concrétiser ? Vous êtes au bon endroit ! <br>
                     Kaay Entreprendre est là pour vous accompagner à 
                     chaque étape de votre voyage entrepreneurial.
                 </p>
@@ -67,12 +66,10 @@
                 <img src="images/baniere.png" alt="baniere header">
             </div>
 
-        </div>
-
     </section>
 
     <!-- apropos -->
-    <section class="section-3">
+    <!-- <section class="section-3">
         
             <div class="wrapper-3">
               <span class="text-a">a propos de nous</span>
@@ -126,7 +123,7 @@
                 </div>
               </div>
            
-    </section>
+    </section> -->
 
         <!-- nos services -->
         <section id="nos-services">
@@ -195,5 +192,17 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        let togg1 = document.getElementById("burger");
+        function openMenu(){
+           togg1.style.display = "none";
+            document.querySelector('.navbar').classList.add('open');
+        }
+        function closeMenu(){
+            togg1.style.display = "block";
+            document.querySelector('.navbar').classList.remove('open');
+        }
+    </script>
 </body>
 </html>
