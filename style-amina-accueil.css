@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Manrope:wght@200&family=Montserrat:wght@300&display=swap');
-
+@import url('nav.css');
 :root {
   /* Colors */
   --bleu-color:#00214A;
@@ -102,6 +102,9 @@
     height: 5px;
 }
 #article-blog .article-blog{
+    background-image: url(images/blog2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     margin: 150px;
@@ -110,8 +113,9 @@
     width: 930px;
     height: 514px;
     border-radius: 10px;
-    background: url(images/blog2.png);
-    background-repeat: no-repeat;
+    /* background-image: url(images/blog2.png);
+    background-size: cover;
+    background-repeat: no-repeat; */
     margin: 0 100px 0 100px;
     text-align: center;
     
@@ -192,15 +196,24 @@ flex-shrink: 0;
     
     }
     #article-blog .article-blog-text{
-        background-image: url('images/blog2.png');
-        margin-left: 20px;
-        margin-right: 20px;
+        /* background-image: url('images/blog2.png');
+        padding: 0;
+        margin: 0; */
+        background-image: none;
+      
+       
     }
+    /* .article-blog{
+        background-image: url('images/blog2.png');
+        background-repeat: no-repeat;
+    } */
     .nos-services div{
         margin-left: 100px;
         
     }
-   
+   .article-blog img{
+    margin: 0;
+   }
     .img-services1, .img-services2{
         margin-right: 350px;
     }
